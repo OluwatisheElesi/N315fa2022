@@ -89,20 +89,20 @@ justify-content: space-evenly;
 
     }
 
-    #home {
+    .home {
         margin-left: 20px;
     }
 
-    #courses {
+    .courses {
         margin-left: 20px;
     }
-    #workshops {
+    .workshops {
         margin-left: 20px;
     }
-    #blog {
+    .blog {
         margin-left: 20px;
     }
-    #students {
+    .students {
         width: 140px;
         margin-left: 20px;
         word-wrap: none;
@@ -143,14 +143,32 @@ align-items: flex-end;
 
 .hero_image {
 /* position: relative; */
-bottom: 300px;
-width: 100%;
+bottom: 500px;
+width: 90%;
 display: inline-block;
 /* display: co                                                                                                                           ; */
  border-radius: 25px;
     padding-left: 30px;
 }
 
+
+.hero_video {
+    /* position: relative; */
+    bottom: 800px;
+    width: 90%;
+    display: inline-block;
+    /* display: co                                                                                                                           ; */
+     border-radius: 25px;
+        padding-left: 30px;
+    }
+  
+    @media  all and (max-width: 100px) { 
+        .hero_video {
+            height: 40%;  
+            width: 60%;
+            
+        }
+    }
 .hero_text {
     position: relative;
     width: 400px;
@@ -163,6 +181,18 @@ display: inline-block;
     
     height: 600px;
    
+    /*display: flex;
+    width: 100%; */
+    /* flex-direction: row; */
+    align-items: center;
+padding: 30px;
+    justify-content: space-evenly;
+}
+.row_two {
+    
+    height: 600px;
+   overflow: wrap;
+    overflow-y: scroll;
     /*display: flex;
     width: 100%; */
     /* flex-direction: row; */
@@ -208,11 +238,39 @@ padding: 30px;
     width: 100%;
     background-color: rgb(18, 11, 24); 
 }
+
 .photo img{
     /* background-color: blue; */
-   
- margin-left: 20px;
+    width: 300px;
+    height: 200px; 
+
+/* border-radius: 25px; */
+/* object-fit: cover; */
+}
+
+.photo_two{
+    
+    padding-bottom: 16px;
+        
+    padding-top: 16px;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: 16px;
+    margin-bottom: 40px;
+   padding: 30px;
+    background-color: rgb(18, 11, 24); 
+}
+.photo_two img{
+    /* background-color: blue; */
+    width: 300px;
+    height: 200px; 
+ margin-left: 40px;
 border-radius: 25px;
+ margin-left: 20px;
+ padding-bottom: 16px;
+float: center;
+
+
 /* object-fit: cover; */
 }
 /* 
