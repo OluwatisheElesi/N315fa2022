@@ -1,13 +1,13 @@
-var homeContent = '<h1>Home</h1>';
-var coursesContent = '<h1>Courses</h1>';
-var workshopsContent = '<h1>Workshops</h1>';
-var studentsContent = '<h1>Students</h1>';
-var blogContent = '<h1>Blog</h1>';
+var homeContent = '/Homework/homework3/home.html';
+var coursesContent = '/Homework/homework3/courses.html';
+var contactContent = '/Homework/homework3/index.html#contact';
+var studentsContent = '/Homework/homework3/student-success.html';
+var blogContent = '/Homework/homework3/blog.html';
 
 export function changePage(pageID) {
     // let page = pageID + "Content";
 //    path
-$.get(`pages/${pageId}.html`, function (data) {
+$.get(`pages/${pageID}.html`, function (data){
 
     console.log(data);
     
